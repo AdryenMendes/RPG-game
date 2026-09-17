@@ -5,8 +5,6 @@ public class Main {
 
         p1.atacar(p2);
         
-        // AQUI ESTÁ O PROBLEMA: Como os atributos são públicos,
-        // eu posso fazer algo impossível matematicamente ou bizarro:
         p2.vida = -500; 
         p2.forca = 999999; 
 
