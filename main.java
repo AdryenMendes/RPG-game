@@ -4,9 +4,6 @@ public class Main {
         Personagem p2 = new Personagem("Orc", 50, 10);
 
         p1.atacar(p2);
-        
-        p2.vida = -500; 
-        p2.forca = 999999; 
 
         System.out.println("Vida do Orc: " + p2.vida);
     }
